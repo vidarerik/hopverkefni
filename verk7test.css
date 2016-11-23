@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5; 
+	background: linear-gradient(to bottom, rgba(255,150,0,0), rgba(255,150,0,100));
+	color: black;
+	font-family: sans-serif,serif;
+}
+
+a:active ,a:visited, a:link{
+	text-decoration: none;
+	color: black;
+}
+
+@keyframes example {
+  0%   { opacity: 0; }
+  25%   { opacity: 0; }
+  50%   {  opacity: 1; }
+  100%   { opacity: 1; }
+}
+
+@keyframes lotto{
+	0% { background-color: blue; }
+	25% { background-color: red; }
+	50% { background-color: green; }
+	75% { background-color: orange; }
+	100% { background-color: cyan; }
+}
+
+button{
+    position: relative;
+    animation-duration: 4s;
+}
+
+
+header h2{
+	text-align: center;
+}
+footer{
+	width: 100%;
+	height: 100%;
+	padding: 0.4em;
+	background-color: #89075e;
+}
+
+nav{
+	text-decoration: none;
+	width: 100%;
+	background-color: cyan;
+	border: 1px solid green;
+}
+
+nav a:active, nav a:visited{
+	color: black;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: tomato;
+}
+
+nav ul{
+	list-style: none;
+	text-decoration: none;
+	
+}
+nav ul li{
+	text-decoration: none;
+}
+figure{
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+figure img{
+	border: 1px solid #fff;
+}
+figure img:hover{
+	border: 1px solid #ff7b29;
+	cursor: pointer;
+}
+img {
+	display: flex;
+	height: auto;
+	width: 100%;
+}
+
+input {
+  	display: none;
+}
+
+
+label {
+	color: #0087cc;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	padding: 3px 7px;
+	transition: all .5s ease;
+	background-color: #FFF;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+label:hover {
+  	color: #ff7b29;
+}
+input:checked + label {
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+	color: #9799a7;
+}
+
+ul li{
+	margin-bottom: 1px;
+}
+
+.sMedia{
+	position: fixed;
+	left: 0;
+}
+
+.twitter {
+	width: 100px;
+    height: 70px;
+    transition: background-color 1s ease;
+    transition: width 2s;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+.twitter:hover{
+	background-color: cyan;
+	width: 150px;
+}
+
+.steam{
+	width: 100px;
+    height: 70px;
+    transition: background-color 2s;
+    transition: width 2s;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+.steam:hover{
+	background-color: blue;
+	width: 150px;
+}
+
+.github{
+	width: 100px;
+    height: 70px;
+    transition: background-color 2s;
+    transition: width 2s;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+.github:hover{
+	background-color: yellow;
+	width: 150px;
+}
+
+.soundcloud{
+	width: 100px;
+    height: 70px;
+    transition: background-color 2s;
+    transition: width 2s;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+.soundcloud:hover{
+	background-color: orange;
+	width: 150px;
+}
+.sMedia ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sMedia div{
+	background: #075e89;
+	padding: 15px;
+}
+
+
+
+.test{
+	width: 100px;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.buttonicon {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.horizontalbuttonicon {
+  display: inline-block;
+  padding-right: 30em;
+  padding-bottom: 1em;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 25px;
+}
+
+.buttonicon:hover {background-color: #3e8e41}
+
+.buttonicon:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.tengill{
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	text-align: center;
+}
+
+.verticalauglysing{
+	background: url(img/maxresdefault2.jpg) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	border: solid 1px white;
+	overflow: hidden;
+	height: 70em;
+	padding: 2em;
+}
+
+#horizontalauglysing{
+	animation-name: lotto;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	background-size: 100%;
+	border: solid 1px white;
+	overflow: hidden;
+	height: 15em;
+	padding: 2em;
+}
+
+.box{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+.topMenu{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	position: fixed;
+	bottom: -15em;
+	left: 0;
+}
+	
+.topMenu li{
+	width: 100%;
+	padding: 0.1em;
+	background-color: whitesmoke;
+}
+
+.topMenu a{
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+}
+input:checked ~ nav .topMenu{
+	position: fixed;
+	bottom: 1.85em;
+	left: 0;
+	transition: all .5s ease;
+}
+.body{
+	margin: auto;
+}
+
+.flexin{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.mainHeader{
+
+	width: 100%;
+	background-color: #5e8907;
+}
+
+.mainContent{
+	width: 100%;
+	padding: 0.4em;
+	background-color: 	#408E2F;
+}
+
+.firstSide{
+	width: 100%;
+	padding: 0.4em;
+	background-color: #075e89;
+}
+
+.secondSide{
+	width: 100%;
+	padding: 0.4em;
+	background-color: #075e89;
+}
+
+.navigation nav{
+	background-color: #FFF;
+}
+.button{
+	border: 1px solid black;
+}
+
+/* flex order */
+
+.mainHeader {
+	order: 1;
+}
+
+.mainContent {
+	order: 2;
+}
+
+.firstSide{
+	order: 3;
+}
+
+.secondSide{
+	order: 4;
+}
+
+footer{
+	order: 5;
+}
+
+nav{
+	order: 6;
+}
+
+
+
+/*Mobile*/
+
+@media screen and (min-width: 30em){
+	.box{
+		flex-flow: row;
+	}	
+
+	.firstSide{
+		width: 50%;
+	}
+
+	.secondSide{
+		width: 50%;
+	}
+}
+
+
+/*spjald*/
+
+@media screen and (min-width: 48em){
+	label{
+		display: none;
+	}
+	a{
+		font-size: 70%;
+		text-decoration: none;
+	}
+
+	.topMenu{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		flex-flow: row;
+		position: static;
+		bottom: 100em;
+		left: 50em;
+	}
+	input:checked ~ .topMenu{
+		position: fixed;
+
+		bottom: 4em;
+		left: 0;
+		transition: all 1s ease;
+	}
+	.mainHeader{
+		width: 100%;
+	}
+
+	.mainContent{
+		width: 100%;
+	}
+
+	.firstSide{
+		width: 50%;
+		flex-wrap: wrap;
+	}
+
+	.secondSide{
+		width: 50%;
+		flex-wrap: wrap;
+	}
+
+	footer{
+		width: 100%;
+	}
+	nav{
+		order: 1;
+	}
+	.mainHeader{
+		order: 2;
+	}
+	.mainContent{
+		order: 3;
+	}
+	.firstSide{
+		order: 4;
+	}
+	.secondSide{
+		order: 5;
+	}
+	footer{
+		order: 6;
+	}
+}
+/* Holy grail */
+@media screen and (min-width: 60em){
+
+	body{
+		
+		margin: 0 auto;
+	}
+
+	nav{
+		order: 1;
+
+	}
+
+	footer{
+		height: auto;
+		width: 100%;
+		order: 6;
+	}
+
+	.mainHeader{
+		width: 100%;
+		order: 2;
+	}
+
+	.mainContent{
+		
+		width: 70%;
+		order: 4;
+	}
+
+	.firstSide{
+		width: 15%;
+		order: 3;
+	}
+
+	.secondSide{
+		width: 15%;
+		order: 5;
+	}
+	
+}
+
