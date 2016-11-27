@@ -3,6 +3,7 @@
 *{
 	box-sizing: border-box;
 }
+
 body{
 	width: 100%;
 	height: 100%;
@@ -29,9 +30,8 @@ button{
     animation-duration: 4s;
 }
 
-embed{
-	margin-left: auto;
-	margin-right: auto;
+h1{
+	text-align: center;
 }
 
 header h2{
@@ -42,6 +42,15 @@ footer{
 	height: 100%;
 	padding: 0.4em;
 	background-color: #9ad58e;
+}
+
+/* YouTube */
+iframe{
+	border: 10px ridge red;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 }
 
 nav{
@@ -116,6 +125,15 @@ input:checked + label {
 
 ul li{
 	margin-bottom: 1px;
+}
+
+.back{
+	position: fixed;
+	background-color: blue;
+	z-index: 0;
+	display: block;
+	top: 100px;
+	right: 100px;
 }
 
 .resize{
