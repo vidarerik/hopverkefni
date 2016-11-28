@@ -4,3 +4,6 @@ Viðar ætlar að prufa að embedda leik í games tenglinum og Sigurður ákveð
 
 Enþá er hugmyndavinnan í vinnslu þannig það verður bætt við síðar hér.
 
+28.11.2016
+
+Ætlum að skipta verkefnið í helming og bæta við contacts smá um okkur og contacts
