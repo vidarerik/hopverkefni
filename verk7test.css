@@ -226,6 +226,7 @@ input:checked ~ nav .topMenu{
 
 .firstSide{
 	order: 3;
+
 }
 
 .secondSide{
@@ -337,6 +338,9 @@ nav{
 }
 /* Holy grail */
 @media screen and (min-width: 60em){
+	h3{
+		padding-left: 10px;
+	}
 
 	body{
 		margin: 0 auto;
@@ -364,12 +368,18 @@ nav{
 	}
 
 	.firstSide{
-		width: 15%;
+		border:10px ridge red;
+		background-color: crimson;
+		float: left;
+		width: 50%;
 		order: 3;
 	}
 
 	.secondSide{
-		width: 15%;
+		border:10px ridge blue;
+		background-color: cyan;
+		width: 50%;
+		float: right;
 		order: 5;
 	}
 
