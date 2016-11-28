@@ -338,8 +338,24 @@ nav{
 }
 /* Holy grail */
 @media screen and (min-width: 60em){
+	a{
+		font-size: 25px;
+	}
+
+	a:visited{
+		color:purple;
+	}
+
+	a:link{
+		color:blue;
+	}
+
+	a:hover {
+		color: green;
+	}
+
 	h3{
-		padding-left: 10px;
+		text-align: center;
 	}
 
 	body{
@@ -383,43 +399,7 @@ nav{
 		order: 5;
 	}
 
-	/* The container <div> - needed to position the dropdown content */
-	.dropdown{
-		flex-basis: 100%;
-		
-	}
-
-	/* Change color of dropdown links on hover */
-	.dropdown-content a:hover {background-color: #f1f1f1}
-
-
-
-	.dropdown:hover{
-		background-color: red;
-		cursor: pointer;
-	}
-	/* Show the dropdown menu on hover */
-	.dropdown:hover .dropdown-content {
-	    display: block;
-	    cursor: pointer;
-	}
-
-	/* Dropdown Content (Hidden by Default) */
-	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 374px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	}
-
-	/* Links inside the dropdown */
-	.dropdown-content a {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
-	}
+	
 	
 }
 
