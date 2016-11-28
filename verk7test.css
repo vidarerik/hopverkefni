@@ -10,8 +10,8 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.5; 
-	background-color: black;
-	color: blue;
+	background-color: #CCFFBB;
+	color: black;
 	font-family: monospace,sans-serif,serif;
 	font-size: 17px;
 
@@ -51,7 +51,7 @@ iframe{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-
+	margin-top: 10px;
 }
 
 nav{
@@ -204,7 +204,6 @@ input:checked ~ nav .topMenu{
 .mainContent{
 	width: 100%;
 	padding: 0.4em;
-	background-color: white;
 }
 
 
