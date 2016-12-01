@@ -33,6 +33,7 @@ button{
 
 h1{
 	text-align: center;
+	font-size: 64px;
 }
 
 header h2{
@@ -85,13 +86,7 @@ figure{
 	padding: 0;
 	width: 50%;
 }
-figure img{
-	border: 1px solid #fff;
-}
-figure img:hover{
-	border: 1px solid #ff7b29;
-	cursor: pointer;
-}
+
 img {
 	display: flex;
 	height: auto;
@@ -386,6 +381,10 @@ nav{
 		height: auto;
 		width: 100%;
 		order: 6;
+	}
+
+	img{
+
 	}
 
 	.mainHeader{
