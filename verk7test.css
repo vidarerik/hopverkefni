@@ -10,10 +10,10 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.5; 
-	background-color: #CCFFBB;
+	background-color: whitesmoke;
 	color: black;
 	font-family: monospace,sans-serif,serif;
-	font-size: 17px;
+	font-size: 18px;
 
 }
 
@@ -43,7 +43,7 @@ footer{
 
 	height: 100%;
 	padding: 0.4em;
-	background-color: #9ad58e;
+	background-color: #69aa3a;
 }
 
 /* YouTube */
@@ -171,7 +171,7 @@ input:checked + label {
 .topMenu li{
 	width: 100%;
 	padding: 0.1em;
-	background-color: #9ad58e;
+	background-color: #69aa3a;
 }
 
 .topMenu a{
@@ -358,11 +358,14 @@ nav{
 	}
 
 	a:link{
-		color:blue;
+		color: blue;
 	}
 
 	a:hover {
-		color: green;
+		color: orange;
+	}
+	nav a:hover {
+		color: orange;
 	}
 
 	h3{
