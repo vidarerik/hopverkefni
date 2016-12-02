@@ -350,7 +350,7 @@ nav{
 	}
 	/*bot*/
 	.mainContent{
-		padding-bottom: 10em;
+		padding-bottom: 5em;
 		order: 3;
 	}
 	.firstSide{
@@ -448,12 +448,11 @@ nav{
 	}
 	
 	.gifposition{
-		margin-top: 100px;
+		margin-top: 50px;
 		margin-left: auto;
 		margin-right: auto;
 		height: auto;
 		width: auto;
-    	height: 400px;
     	width: 400px;
 	}
 }
