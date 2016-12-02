@@ -204,7 +204,7 @@ input:checked ~ nav .topMenu{
 
 .mainContent{
 	width: 100%;
-	padding: 0.4em;
+	
 }
 
 .flexbot{
@@ -341,8 +341,9 @@ nav{
 	.mainHeader{
 		order: 2;
 	}
+	/*bot*/
 	.mainContent{
-		padding-bottom: 26em;
+		padding-bottom: 10em;
 		order: 3;
 	}
 	.firstSide{
