@@ -70,7 +70,7 @@ nav a:active, nav a:visited{
 	text-decoration: none;
 }
 nav a:hover{
-	background-color: #216a12;
+	background-color: #408e2f;
 }
 
 nav ul{
@@ -119,8 +119,9 @@ input:checked + label {
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 	color: #9799a7;
 }
-
-
+.Hugleft {
+	text-align: left;
+}
 .back{
 	position: fixed;
 	background-color: blue;
@@ -223,6 +224,9 @@ input:checked ~ nav .topMenu{
 }
 .button{
 	border: 1px solid black;
+}
+.borderbox {
+	border: 2px solid #69aa3a;
 }
 
 /* flex order */
