@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Rock+Salt');
 
 *{
 	box-sizing: border-box;
@@ -119,6 +120,12 @@ input:checked + label {
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 	color: #9799a7;
 }
+
+.mariotxt{
+	font-family: 'Rock Salt', cursive;
+	color: crimson;
+}
+
 .Hugleft {
 	text-align: left;
 }
@@ -425,6 +432,7 @@ nav{
 		float: right;
 		order: 5;
 	}
+
 
 	.bothclear{
 		float: right;
