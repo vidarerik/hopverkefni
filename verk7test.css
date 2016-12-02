@@ -134,7 +134,8 @@ input:checked + label {
 	margin-left: auto;
 	margin-right: auto;
 	width:540px; /* you can use % */
-    height: auto;
+    height:auto;
+
 }
 
 .tengill{
@@ -387,7 +388,7 @@ nav{
 	}
 
 	img{
-
+		
 	}
 
 	.mainHeader{
@@ -419,6 +420,15 @@ nav{
 
 	.bothclear{
 		float: right;
+	}
+
+	.picsize{
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+		width: auto;
+    	height: 150px;
+    	width: 150px;
 	}
 	
 }
