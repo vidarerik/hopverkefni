@@ -70,7 +70,7 @@ nav a:active, nav a:visited{
 	text-decoration: none;
 }
 nav a:hover{
-	background-color: #408e2f;
+	background-color: #6441a4;
 }
 
 nav ul{
@@ -226,7 +226,8 @@ input:checked ~ nav .topMenu{
 	border: 1px solid black;
 }
 .borderbox {
-	border: 2px solid #69aa3a;
+	border: 2px solid #408e2f;
+	background-color: #69aa3a;
 }
 
 /* flex order */
