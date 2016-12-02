@@ -70,7 +70,7 @@ nav a:active, nav a:visited{
 	text-decoration: none;
 }
 nav a:hover{
-	background-color: #6441a4;
+	background-color: #003300;
 }
 
 nav ul{
@@ -198,7 +198,7 @@ input:checked ~ nav .topMenu{
 .mainHeader{
 
 	width: 100%;
-	background-color: #408e2f;
+	background-color: #35de10;
 }
 
 .mainContent{
@@ -223,7 +223,7 @@ input:checked ~ nav .topMenu{
 	background-color: #FFF;
 }
 .button{
-	border: 1px solid black;
+	border: 2px solid black;
 }
 .borderbox {
 	border: 2px solid #408e2f;
@@ -299,6 +299,8 @@ nav{
 		position: static;
 		bottom: 100em;
 		left: 50em;
+		font-size: 21px;
+		font-weight: bold;
 	}
 	input:checked ~ .topMenu{
 		position: fixed;
