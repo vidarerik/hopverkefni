@@ -10,7 +10,7 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.5; 
-	background-color: whitesmoke;
+	background-color: #c3cebb;
 	color: black;
 	font-family: monospace,sans-serif,serif;
 	font-size: 18px;
@@ -410,16 +410,16 @@ nav{
 	}
 
 	.firstSide{
-		border:10px ridge red;
-		background-color: crimson;
+		border:10px ridge #69aa3a;
+		background-color: #408e2f;
 		float: left;
 		width: 50%;
 		order: 3;
 	}
 
 	.secondSide{
-		border:10px ridge blue;
-		background-color: cyan;
+		border:10px ridge #408e2f;
+		background-color: #69aa3a;
 		width: 50%;
 		float: right;
 		order: 5;
