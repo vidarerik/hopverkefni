@@ -14,3 +14,5 @@ Einnig eru youtube videos sem ég og viddi höfum hjálpað við eða verið me�
 6.12.2016
 
 Ætlum að skipta verkefnið í á milli okkar og bæta við í contacts smá um okkur og okkar áhugamál og upplýsingar um hverning er hægt að hafa samband við okkur.
+
+06.12þ2016
