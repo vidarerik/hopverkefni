@@ -41,6 +41,10 @@ h1{
 	font-size: 64px;
 }
 
+h2, h3{
+	padding: 1em;
+}
+
 header h2{
 	text-align: center;
 }
@@ -153,7 +157,6 @@ input:checked + label {
 .resize{
 	margin-left: auto;
 	margin-right: auto;
-	width:540px; /* you can use % */
     height:auto;
 
 }
@@ -402,7 +405,7 @@ nav{
 	}
 
 	iframe{
-		width:32em;
+		width:41em;
 		height:24em;
 	}
 
@@ -421,8 +424,8 @@ nav{
 		order: 6;
 	}
 
-	img{
-		
+	.resize{
+		width:540px; /* you can use % */
 	}
 
 	.mainHeader{
